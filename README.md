@@ -23,8 +23,9 @@
 ==========================
 
 
-| number  | Description |kaggle    |data     | code    | etc     |
-|:--------:|:----------:|:--------:|:-------:|:-------:|:-------:|
+| number   | Description       |kaggle       |data      | code     | etc     |
+|:--------:|:-----------------:|:-----------:|:--------:|:--------:|:-------:|
+
 | 1        | word2vec-nlp-tutorial|[위드투백 튜토리얼](https://www.kaggle.com/c/word2vec-nlp-tutorial)|[English](https://drive.google.com/open?id=1_u8PLQkM8ZhaDN9Dw72sZ6bot1FPiUz5)|[code1_description](https://github.com/songys/Kaggle_NLP_Song/blob/master/bag_of_words_meet_bag_of_popcorn/description.ipynb)<p>[code2_More_fun.ipynb](https://github.com/songys/Kaggle_NLP_Song/blob/master/bag_of_words_meet_bag_of_popcorn/More_fun_with_Word_vectors.ipynb)| python 3 으로 작업
 | 2        | sentiment-analysis-on-movie-reviews|[영화평 감성분석](https://www.kaggle.com/c/sentiment-analysis-on-movie-reviews)|[English](https://drive.google.com/open?id=17iXfPV1j0uRUXmT0_uYln_Z-oLBvVwnD)<p>[Korean_Naver sentiment movie corpus](https://github.com/e9t/nsmc)|[English](https://github.com/songys/Kaggle_NLP_Song/blob/master/sentimantal_analysis_on_movie_review/Kaggle_%20Sentiment%20Analysis%20on%20Movie%20Reviews.ipynb)<p>[Korean](https://github.com/songys/Kaggle_NLP_Song/blob/master/sentimantal_analysis_on_movie_review/%EB%84%A4%EC%9D%B4%EB%B2%84%20%EC%98%81%ED%99%94%ED%8F%89%20%EA%B0%90%EC%84%B1%EB%B6%84%EC%84%9D.ipynb)|negative, neutral, somewhat negative, somewhat positive, positive로 레이블이 되어 있는 영화평의 감성분석을 하는 것입니다. 코드는 EDA 후에 긍정 사전을 만드는 방식으로 되어 있습니다.
 | 3        |약평분류|[jigsaw toxic comment classification challenge](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge) |[English](https://drive.google.com/open?id=17iXfPV1j0uRUXmT0_uYln_Z-oLBvVwnD)<p>[Korean](https://drive.google.com/open?id=105zHmChKLUzH4elv3OGbdihlmVfCCTYg)|English(https://github.com/songys/Kaggle_NLP_Song/blob/master/toxic_comment_EDA_KERAS/toxic_comment_EDA_KERAS.ipynb)<P>[Korean](https://github.com/songys/Kaggle_NLP_Song/blob/master/toxic_comment_EDA_KERAS/%EB%84%A4%EC%9D%B4%EB%B2%84%20%EC%98%81%ED%99%94%ED%8F%89_toxic_comment_EDA_KERAS.ipynb)|toxic, severe_toxic, obscene, threat, insult, identity로 레이블 되어 있는 위키피디아 데이터를 분류하는 대회입니다. 한국어는 Naver sentiment movie corpus에서 약 2만개를 핸드 레이블로 toxic, obscene, threat, insult, identity로 5단계로 분류하였습니다.
